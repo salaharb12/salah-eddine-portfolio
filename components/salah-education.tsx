@@ -4,6 +4,8 @@
 * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
 */
 
+import { JSX, SVGProps } from "react"
+
 /** Add fonts into your Next.js project:
 
 import { Inter } from 'next/font/google'
@@ -93,7 +95,7 @@ export function SalahEducation() {
   )
 }
 
-function BriefcaseIcon(props) {
+function BriefcaseIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -114,7 +116,7 @@ function BriefcaseIcon(props) {
 }
 
 
-function BuildingIcon(props) {
+function BuildingIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -144,7 +146,7 @@ function BuildingIcon(props) {
 }
 
 
-function CalendarIcon(props) {
+function CalendarIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -167,7 +169,7 @@ function CalendarIcon(props) {
 }
 
 
-function GraduationCapIcon(props) {
+function GraduationCapIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -189,7 +191,7 @@ function GraduationCapIcon(props) {
 }
 
 
-function LightbulbIcon(props) {
+function LightbulbIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

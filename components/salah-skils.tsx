@@ -4,6 +4,8 @@
 * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
 */
 
+import { JSX, SVGProps } from "react"
+
 /** Add fonts into your Next.js project:
 
 import { Inter } from 'next/font/google'
@@ -127,7 +129,7 @@ export function SalahSkils() {
   )
 }
 
-function AccessibilityIcon(props) {
+function AccessibilityIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -151,7 +153,7 @@ function AccessibilityIcon(props) {
 }
 
 
-function BadgeIcon(props) {
+function BadgeIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -171,7 +173,7 @@ function BadgeIcon(props) {
 }
 
 
-function CodepenIcon(props) {
+function CodepenIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -195,7 +197,7 @@ function CodepenIcon(props) {
 }
 
 
-function ContactIcon(props) {
+function ContactIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -219,7 +221,7 @@ function ContactIcon(props) {
 }
 
 
-function CreativeCommonsIcon(props) {
+function CreativeCommonsIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -241,7 +243,7 @@ function CreativeCommonsIcon(props) {
 }
 
 
-function FastForwardIcon(props) {
+function FastForwardIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -262,7 +264,7 @@ function FastForwardIcon(props) {
 }
 
 
-function NetworkIcon(props) {
+function NetworkIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -286,7 +288,7 @@ function NetworkIcon(props) {
 }
 
 
-function PuzzleIcon(props) {
+function PuzzleIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -306,7 +308,7 @@ function PuzzleIcon(props) {
 }
 
 
-function TypeIcon(props) {
+function TypeIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -328,7 +330,7 @@ function TypeIcon(props) {
 }
 
 
-function WorkflowIcon(props) {
+function WorkflowIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

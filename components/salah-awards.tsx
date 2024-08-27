@@ -4,6 +4,8 @@
 * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
 */
 
+import { JSX, SVGProps } from "react"
+
 /** Add fonts into your Next.js project:
 
 import { Inter } from 'next/font/google'
@@ -86,7 +88,7 @@ export function SalahAwards() {
   )
 }
 
-function AwardIcon(props) {
+function AwardIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -107,7 +109,7 @@ function AwardIcon(props) {
 }
 
 
-function BadgeIcon(props) {
+function BadgeIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -127,7 +129,7 @@ function BadgeIcon(props) {
 }
 
 
-function BriefcaseIcon(props) {
+function BriefcaseIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -148,7 +150,7 @@ function BriefcaseIcon(props) {
 }
 
 
-function MedalIcon(props) {
+function MedalIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -173,7 +175,7 @@ function MedalIcon(props) {
 }
 
 
-function StarIcon(props) {
+function StarIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -193,7 +195,7 @@ function StarIcon(props) {
 }
 
 
-function TrophyIcon(props) {
+function TrophyIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

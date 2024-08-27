@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, JSX, SVGProps, } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
@@ -13,7 +13,7 @@ export function SalahHeader() {
   const toggleDarkMode = () => {
     setIsDarkMode((prevState) => !prevState)
   }
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId)
     if (section) {
       section.scrollIntoView({ behavior: "smooth" })
@@ -79,7 +79,7 @@ export function SalahHeader() {
   )
 }
 
-function MoonIcon(props) {
+function MoonIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -99,7 +99,7 @@ function MoonIcon(props) {
 }
 
 
-function SaladIcon(props) {
+function SaladIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -123,7 +123,7 @@ function SaladIcon(props) {
 }
 
 
-function SunIcon(props) {
+function SunIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

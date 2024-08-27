@@ -19,7 +19,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 "use client"
 
-import { useState } from "react"
+import { JSX, SVGProps , useState } from "react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -159,7 +159,7 @@ export function SalahProject() {
   )
 }
 
-function EyeIcon(props) {
+function EyeIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -180,7 +180,7 @@ function EyeIcon(props) {
 }
 
 
-function GithubIcon(props) {
+function GithubIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

@@ -19,6 +19,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import { Card } from "@/components/ui/card"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
+import { JSX, SVGProps } from "react"
 
 export function SalahTestimonials() {
   return (
@@ -137,7 +138,7 @@ export function SalahTestimonials() {
   )
 }
 
-function StarIcon(props) {
+function StarIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

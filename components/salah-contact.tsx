@@ -22,6 +22,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import { JSX, SVGProps } from "react"
 
 export function SalahContact() {
   return (
@@ -84,7 +85,7 @@ export function SalahContact() {
   )
 }
 
-function GitlabIcon(props) {
+function GitlabIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -104,7 +105,7 @@ function GitlabIcon(props) {
 }
 
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -126,7 +127,7 @@ function LinkedinIcon(props) {
 }
 
 
-function TwitterIcon(props) {
+function TwitterIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

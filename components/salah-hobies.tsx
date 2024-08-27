@@ -4,6 +4,8 @@
 * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
 */
 
+import { JSX, SVGProps } from "react"
+
 /** Add fonts into your Next.js project:
 
 import { Inter } from 'next/font/google'
@@ -69,7 +71,7 @@ export function SalahHobies() {
   )
 }
 
-function FanIcon(props) {
+function FanIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -90,7 +92,7 @@ function FanIcon(props) {
 }
 
 
-function GamepadIcon(props) {
+function GamepadIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -114,7 +116,7 @@ function GamepadIcon(props) {
 }
 
 
-function PianoIcon(props) {
+function PianoIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

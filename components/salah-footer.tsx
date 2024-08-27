@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { JSX, SVGProps } from "react"
 
 export function SalahFooter() {
   return (
@@ -44,24 +45,24 @@ export function SalahFooter() {
             <div className="space-y-2">
               <div className="flex items-center gap-2">
                 <MailIcon className="h-5 w-5" />
-                <span>hello@example.com</span>
+                <span>salah.arb09@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <PhoneIcon className="h-5 w-5" />
-                <span>+1 (555) 555-5555</span>
+                <span>+212 638832292</span>
               </div>
             </div>
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm">
-          <p>&copy; 2024 Your Portfolio. All rights reserved.</p>
+          <p>&copy; 2024 Salah EDDINE Portfolio. All rights reserved.</p>
         </div>
       </div>
     </footer>
   )
 }
 
-function GithubIcon(props) {
+function GithubIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -82,7 +83,7 @@ function GithubIcon(props) {
 }
 
 
-function InstagramIcon(props) {
+function InstagramIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -104,7 +105,7 @@ function InstagramIcon(props) {
 }
 
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -126,7 +127,7 @@ function LinkedinIcon(props) {
 }
 
 
-function MailIcon(props) {
+function MailIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -147,7 +148,7 @@ function MailIcon(props) {
 }
 
 
-function PhoneIcon(props) {
+function PhoneIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -167,7 +168,7 @@ function PhoneIcon(props) {
 }
 
 
-function TwitterIcon(props) {
+function TwitterIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
